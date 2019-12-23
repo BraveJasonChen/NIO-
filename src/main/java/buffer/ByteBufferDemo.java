@@ -30,8 +30,10 @@ public class ByteBufferDemo {
         Buffer mark = byteBuffer.mark();
         byteBuffer.put(0,(byte)'M').put((byte)'w');
         testInformation();
-        byteBuffer.reset();
+//        byteBuffer.reset();
         testMark();
+//        ﻿byteBuffer.limit(byteBuffer.position()).position(0);
+        get();
     }
 
     public static  void testInformation(){
@@ -42,5 +44,15 @@ public class ByteBufferDemo {
 
     public static void testMark(){
         System.out.println("mark = " + byteBuffer.position());
+    }
+
+    public static void get(){
+        byteBuffer.flip();
+        int count = byteBuffer.remaining();
+        byte[] myByteArray = new byte[count];
+        for (int i = 0; i < count; i++) {
+            myByteArray [i] = byteBuffer.get( );
+        }
+        System.out.println(new String(myByteArray));
     }
 }
