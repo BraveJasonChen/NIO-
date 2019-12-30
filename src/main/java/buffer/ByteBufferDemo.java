@@ -6,4 +6,11 @@ package buffer;
  * @create: 2019-12-30 20:26
  **/
 public class ByteBufferDemo {
+    public static void main(String[] args) {
+
+    }
+    
+    public static void directBuffer(){
+
+    }
 }

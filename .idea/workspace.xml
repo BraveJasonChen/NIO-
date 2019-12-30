@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327ffa1c-c525-41d5-bebd-03f30317c371" name="Default" comment="" />
+    <list default="true" id="327ffa1c-c525-41d5-bebd-03f30317c371" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ByteBufferDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+      <file leaf-file-name="BufferDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteBufferDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -37,17 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="相等案例.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/相等案例.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="直接缓冲区.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/直接缓冲区.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <first_editor relative-caret-position="595">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copy.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="copy.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/copy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -167,12 +174,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/1.txt" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/ByteBuffer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java" />
         <option value="$PROJECT_DIR$/doc/equals.md" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/BatchMove.java" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/CreateBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/CopyBuffer.java" />
         <option value="$PROJECT_DIR$/doc/copy.md" />
+        <option value="$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java" />
+        <option value="$PROJECT_DIR$/doc/直接缓冲区.md" />
       </list>
     </option>
   </component>
@@ -241,6 +250,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="buffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nio" type="b2602c69:ProjectViewProjectNode" />
@@ -426,7 +442,7 @@
       <workItem from="1577621553543" duration="1514000" />
       <workItem from="1577623421052" duration="1121000" />
       <workItem from="1577625229778" duration="2295000" />
-      <workItem from="1577707696564" duration="945000" />
+      <workItem from="1577707696564" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1577100680976</created>
@@ -442,11 +458,25 @@
       <option name="project" value="LOCAL" />
       <updated>1577626730319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <created>1577708842739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577708842739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <created>1577708904134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577708904134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10569000" />
+    <option name="totallyTimeSpent" value="11600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -467,7 +497,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27878788" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,7 +522,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="新增 创建缓冲区类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 创建缓冲区类" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,7 +555,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
@@ -602,7 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
@@ -658,7 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
@@ -714,7 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
@@ -734,7 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
@@ -781,10 +812,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10200">
           <caret line="629" column="31" selection-start-line="629" selection-start-column="31" selection-end-line="629" selection-end-column="31" />
+          <folding>
+            <element signature="e#8515#8516#0" expanded="true" />
+            <element signature="e#8584#8585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
@@ -808,6 +843,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10200">
           <caret line="629" column="31" selection-start-line="629" selection-start-column="31" selection-end-line="629" selection-end-column="31" />
+          <folding>
+            <element signature="e#8515#8516#0" expanded="true" />
+            <element signature="e#8584#8585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,16 +858,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="136">
             <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/equals.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
@@ -853,16 +882,6 @@
             <element signature="e#7207#7208#0" expanded="true" />
             <element signature="e#12171#12172#0" expanded="true" />
             <element signature="e#12210#12211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -892,6 +911,43 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/BufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ByteBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/equals.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/直接缓冲区.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="595">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
