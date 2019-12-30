@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327ffa1c-c525-41d5-bebd-03f30317c371" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="327ffa1c-c525-41d5-bebd-03f30317c371" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/buffer/BatchMove.java" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/CreateBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/buffer/CopyBuffer.java" />
+        <option value="$PROJECT_DIR$/doc/copy.md" />
       </list>
     </option>
   </component>
@@ -322,8 +321,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ByteBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buffer.ByteBufferDemo" />
+    <configuration name="BufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buffer.BufferDemo" />
       <module name="nio" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -427,7 +426,7 @@
       <workItem from="1577621553543" duration="1514000" />
       <workItem from="1577623421052" duration="1121000" />
       <workItem from="1577625229778" duration="2295000" />
-      <workItem from="1577707696564" duration="514000" />
+      <workItem from="1577707696564" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1577100680976</created>
@@ -447,7 +446,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10138000" />
+    <option name="totallyTimeSpent" value="10569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -462,10 +461,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38787878" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38787878" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27878788" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27878788" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
