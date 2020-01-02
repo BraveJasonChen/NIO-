@@ -5,7 +5,7 @@ package channel;
  * @author: brave.chen
  * @create: 2019-12-31 20:33
  **/
-public class FileChannel {
+public class FileChannelDemo {
     /**
      * ﻿FileChannel对象不能直接创建。一个FileChannel实例只能通过在一个
      * 打开的file对象（RandomAccessFile、 FileInputStream或 FileOutputStream）上调用getChannel( )方法
